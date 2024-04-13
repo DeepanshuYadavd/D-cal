@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#main {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+    width: 23rem;
+
+    background-color: rgba(16, 84, 89, 0.3);
+    box-shadow: 3px 3px 20px rgb(74, 73, 73);
+    /* border: 5px solid rgb(255, 0, 166);  */
+}
+
+#display {
+    /* box-shadow: inset 3px 3px 25px rgb(111, 110, 110); */
+
+    width: 23rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid black; */
+}
+
+/* input display screen */
+#input-display {
+    color: black;
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 1rem;
+    appearance: none;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 3.5rem;
+    width: 22rem;
+    /* box-shadow: 3px 3px 20px rgb(111, 110, 110); */
+}
+
+#keys {
+    /* box-shadow:  inset 3px 3px 20px rgb(111, 110, 110); */
+    width: 23rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid black; */
+}
+
+.row {
+    /* box-shadow:  inset 3px 3px 30px rgb(111, 110, 110); */
+
+    height: 5rem;
+    width: 25rem;
+    text-align: center;
+    /* border: 2px solid green;  */
+    padding: 1.5px;
+}
+
+.row button {
+    box-shadow: 2px 2px 10px rgba(199, 15, 15, 0.5);
+    appearance: none;
+    outline: none;
+    border: 3px solid rgb(10, 10, 10);
+    height: 3rem;
+    width: 3rem;
+    font-size: 18px;
+    border-radius: 50%;
+    margin: 0.3rem 1rem;
+}
